@@ -13,8 +13,10 @@ PrintArray(numbers);
 int count = 0;
 
 for (int a = 0; a < numbers.Length; a++)
-if (numbers[a] % 2 == 0)
-count++;
+{
+    if (numbers[a] % 2 == 0)
+    count++;
+}
 
 Console.WriteLine($"всего {numbers.Length} чисел, {count} из них чётные");
 
